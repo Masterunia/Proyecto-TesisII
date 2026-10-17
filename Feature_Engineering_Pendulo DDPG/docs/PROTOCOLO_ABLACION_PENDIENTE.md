@@ -1,0 +1,2 @@
+# Experimento posterior — No ejecutado
+Tres representaciones A/B/C. Congelar la misma configuración DDPG y recompensa P4, inicializaciones y semillas de entrenamiento, y evaluar con semillas distintas. Reportar captura, porcentaje de éxito estricto a 10 s, permanencia continua, RMSE, esfuerzo, latencia y duración del entrenamiento, en media y desviación estándar entre semillas. No usar el rendimiento P4-60K como resultado de F.S.1/F.S.2. Las escalas de velocidad deben justificarse y fijarse sin consultar evaluación de prueba.
