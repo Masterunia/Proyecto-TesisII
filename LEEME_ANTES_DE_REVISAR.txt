@@ -1,0 +1,14 @@
+ENTREGA PARCIAL PI2 — CÓDIGO Y EVIDENCIA EXPERIMENTAL
+
+00_INFORME: informe parcial según plantilla académica UNI.
+01: análisis de sensibilidad en tau y ruido de exploración.
+02: ablaciones/repeticiones de representación, currículo y retención.
+03: evaluaciones de arquitecturas DDPG, DDPG-LQR y DDPG-ISMC.
+04: comparación exploratoria y confirmatoria de DDPG frente a TD3.
+05: CSV originales seleccionados para mostrar resultados y trazabilidad.
+
+IMPORTANTE: Los notebooks son código ejecutable para Google Colab, pero se entregan SIN los checkpoints de modelos entrenados debido al peso. Para reproducir evaluaciones que cargan modelos, será necesario facilitar los ZIP completos de resultados/modelos desde Google Drive. Los CSV de 05 permiten inspeccionar resultados ya registrados SIN ejecutar entrenamientos. No se afirma que estos 10 notebooks sean todo el histórico experimental.
+
+Para revisión: abrir el Word; abrir los .ipynb en Google Colab; revisar las celdas de configuración, semillas y métricas; consultar los CSV. No ejecutar todas las celdas de entrenamiento solo para consultar resultados (puede llevar horas).
+
+Las semillas NO son folds de validación cruzada. Los experimentos emplearon conjuntos de entrenamiento/validación/prueba con semillas distintas.
